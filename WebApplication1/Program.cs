@@ -61,7 +61,7 @@ namespace WebApplication1
                 }
                 return await next(efiContext); ;
             });
-            //  app.MapIdentityApi<User>();
+
 
             app.MapControllers();
             app.Run();
